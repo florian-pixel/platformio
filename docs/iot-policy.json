@@ -4,22 +4,22 @@
     {
       "Effect": "Allow",
       "Action": "iot:Connect",
-      "Resource": "arn:aws:iot:us-east-1:012345678912:client/*"
+      "Resource": "arn:aws:iot:us-east-1:317932801427:client/*"
     },
     {
       "Effect": "Allow",
       "Action": "iot:Subscribe",
-      "Resource": "arn:aws:iot:us-east-1:012345678912:topicfilter/foo"
+      "Resource": "arn:aws:iot:us-east-1:317932801427:topicfilter/foo"
     },
     {
       "Effect": "Allow",
       "Action": "iot:Receive",
-      "Resource": "arn:aws:iot:us-east-1:012345678912:topic/foo"
+      "Resource": "arn:aws:iot:us-east-1:317932801427:topic/foo"
     },
     {
       "Effect": "Allow",
       "Action": "iot:Publish",
-      "Resource": "arn:aws:iot:us-east-1:012345678912:topic/foo"
+      "Resource": "arn:aws:iot:us-east-1:317932801427:topic/foo"
     }
   ]
 }
