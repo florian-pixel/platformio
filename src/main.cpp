@@ -1,6 +1,6 @@
 #define CAMERA_MODEL_AI_THINKER
 #define CAMERA_MODULE_OV2640
-#include "conf.h"
+#include "../conf/conf.h"
 #include <WiFi.h>
 #include "Arduino.h"
 #include "fb_gfx.h"

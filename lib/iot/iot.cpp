@@ -1,8 +1,9 @@
 #include <WiFi.h>
 #include <WiFiClientSecure.h>
 #include <PubSubClient.h>
-#include "conf.h"
+#include "../conf/conf.h"
 #include <iot.h>
+
 
 IOT::IOT(WiFiClientSecure &wifi_client, PubSubClient &pubsub_client)
 {
